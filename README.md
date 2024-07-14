@@ -7,3 +7,5 @@
 ## See also
 
 https://github.com/PieterScheffers/flexbox-examples/blob/master/grid.html
+
+[Centering a div](https://www.joshwcomeau.com/css/center-a-div/#centering-text-8)
