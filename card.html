@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <style>
+    
+      .card { 
+        display: flex;  /* creates a flex container */
+        flex-direction: column; /* stacks items vertically */
+        background: white;
+        min-height: 500px;
+        width: 100%;
+        border : 2px solid black;
+        border-radius: 0.25em;
+        overflow: hidden;
+      }
+
+      .header {
+        border-bottom: 2px solid black;
+        text-align: center;
+        padding: 0.5rem;
+        background: #ddd;
+      }
+
+      .footer {
+        border-top: 2px solid black;
+        text-align: center;
+        padding: 0.5rem;
+        background: #ddd;
+      }
+      .body {
+        flex-grow: 1; /* grows to fill the remaining space */
+        padding: 0.5rem;
+        height: 100%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">Header </div>
+        <div class="body">Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+            Lorem Ipsum We want this to be a very long text
+        </div>
+        <div class="footer">Footer</div>
+      </div>
+    </div>
+  </body>
+</html>
