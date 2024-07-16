@@ -1,4 +1,4 @@
-# Examples of flexbox
+# Examples of CSS
 
 ## Resources
 
