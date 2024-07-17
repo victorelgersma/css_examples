@@ -1,0 +1,8 @@
+.animated-grid {
+  display: grid;
+  gap: 1rem;
+
+  /* Explicit Grid */
+
+  grid-template-areas: "a b c d e f g h i j k l main";
+}
