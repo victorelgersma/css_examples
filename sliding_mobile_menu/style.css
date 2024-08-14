@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+* {
+  margin: 0;
+}
+.checkbtn {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  padding: 1.5rem 2rem;
+  background-color: #222831;
+  color: #fff;
+}
+
+.nav-mobile a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+}
+
+.nav-desktop a {
+  color: #fff;
+}
+
+.nav-mobile a {
+  display: block;
+}
+
+/* interactivity */
+
+#check {
+  display: none;
+}
+.nav-mobile {
+  display: none;
+}
+
+#check:checked ~ .nav-mobile {
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  #check {
+    display: block;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+    font-size: 5rem;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+  .nav-mobile {
+    top: 160px;
+    width: 100%;
+  }
+  .nav-mobile a {
+    font-size: 2rem;
+    padding: 2rem 3rem;
+  }
+}
