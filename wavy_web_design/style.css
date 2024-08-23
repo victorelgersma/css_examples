@@ -23,3 +23,31 @@ section {
 .orange {
   background-color: #ff7f00;
 }
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.custom-shape-divider-top-1724434925 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1724434925 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1724434925 .shape-fill {
+  fill: #ffc107;
+}
