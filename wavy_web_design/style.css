@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Moderustic", sans-serif;
+  color: #ffffff;
+  background-color: black;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.blue {
+  background-color: #007bff;
+}
+
+.orange {
+  background-color: #ff7f00;
+}
