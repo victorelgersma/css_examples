@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="head"></div>
+    <div class="overlay"></div>
+    <div class="horn-left"></div>
+    <div class="horn-right"></div>
+
+    <style>
+      body {
+        background-color: #b53733;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .overlay {
+        position: absolute;
+        background-color: #b53733;
+        z-index: 2;
+        transform: translate(0, -30px);
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+      }
+      .head {
+        background: #fff;
+        transform: translate(0, 30px);
+        z-index: 3;
+      }
+
+      .horn-left,
+      .horn-right {
+        position: absolute;
+        background-color: black;
+      }
+
+      .horn-left {
+        transform: translate(-30px, 0);
+      }
+
+      .horn-right {
+        transform: translate(30px, 0);
+      }
+    </style>
+  </body>
+</html>
